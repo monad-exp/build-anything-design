@@ -36,6 +36,8 @@ Examples include:
 - Wallet buttons
 - Visual hierarchy
 
+![UX focuses on how a product works; UI focuses on how it looks and communicates](../assets/what-is-ui-ux-design.png)
+
 **What is the difference between UI and UX?**
 
 - UX is how a product looks; UI is how it works
@@ -81,6 +83,8 @@ They're successful because users can understand and complete complex actions wit
 
 Trust is one of the most important design goals in Web3.
 
+![Good UI/UX helps users connect, take action, and become loyal](../assets/why-ui-ux-matters.png)
+
 **Why is trust especially important in Web3 UI/UX?**
 
 - Users are dealing with real money and irreversible transactions
@@ -100,6 +104,8 @@ Before designing anything, designers ask:
 - What problem are they trying to solve?
 - What motivates them?
 - What frustrations do they have?
+
+![Designers ask who users are, what they need, what motivates them, and what frustrates them](../assets/understanding-users.png)
 
 ### Example: Yield Farming
 
@@ -153,15 +159,7 @@ Questions designers ask:
 - How many steps does this take?
 - Does the terminology make sense?
 
-### Example Navigation Structure
-
-```
-Dashboard
-├── Deposit
-├── Rewards
-├── Portfolio
-└── Settings
-```
+![A clear dashboard structure helps users navigate without getting lost](../assets/information-architecture.png)
 
 A well-organized product feels effortless.
 
@@ -196,21 +194,7 @@ Designers map these journeys to identify:
 - Confusing steps
 - Opportunities to simplify
 
-### Example Staking Flow
-
-```
-Connect Wallet
-      ↓
-Select Asset
-      ↓
-Approve Token
-      ↓
-Confirm Transaction
-      ↓
-Deposit Assets
-      ↓
-Earn Rewards
-```
+![Example flow: connect wallet, choose action, approve transaction, receive rewards](../assets/designing-user-flows.png)
 
 The goal is to help users reach their destination with as little effort and confusion as possible.
 
@@ -283,6 +267,8 @@ Accessibility is especially important in Web3 because users often interact with 
 
 Good accessibility improves usability for everyone.
 
+![Good UI builds trust through visual hierarchy, consistency, and accessibility](../assets/creating-the-interface.png)
+
 **On a staking page, which elements should users see immediately?**
 
 - APY, available balance, deposit amount, and the primary action button
@@ -320,6 +306,8 @@ Feedback helps improve the product through multiple iterations.
 If users repeatedly abandon a deposit flow at the approval step, the design may need better explanations or clearer messaging.
 
 The best designers treat design as an ongoing process rather than a final deliverable.
+
+![Design is an ongoing cycle of test, learn, iterate, and improve](../assets/testing-and-iteration.png)
 
 **What should you do if users repeatedly abandon a flow at the approval step?**
 

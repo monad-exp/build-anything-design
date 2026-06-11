@@ -7,6 +7,7 @@ UI/UX lesson content for the BuildAnything Web3 track. Markdown lessons on user 
 | Path | Purpose |
 |------|---------|
 | [`lessons/introduction-to-uiux-for-web3.md`](lessons/introduction-to-uiux-for-web3.md) | Lesson 01 — Introduction to UI/UX Design for Web3: UI vs UX, why design matters in Web3, users, IA, flows, interface design, testing, and review questions. |
+| [`assets/`](assets/) | Section visuals for the lesson (400×400 PNG). |
 
 ## Lessons
 
@@ -16,4 +17,4 @@ UI/UX lesson content for the BuildAnything Web3 track. Markdown lessons on user 
 
 ## Format
 
-Lessons are written in standard GitHub-flavored Markdown: headings, lists, blockquotes, code blocks, and inline review questions. Open any file in GitHub or your editor to preview.
+Lessons use [GitHub Flavored Markdown](https://github.github.com/gfm/): headings, horizontal rules, lists, blockquotes, standard image syntax, and bold review questions. Visual sizing is handled in the asset files, not inline HTML. Preview with GitHub or your editor's Markdown preview.
