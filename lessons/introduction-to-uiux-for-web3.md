@@ -1,4 +1,4 @@
-# Introduction to UI/UX Design for Web3
+# Lesson 01: Introduction to UI/UX Design for Web3
 
 Learn how to design Web3 products that users trust, understand, and actually use.
 

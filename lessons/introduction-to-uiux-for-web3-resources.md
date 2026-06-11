@@ -1,4 +1,4 @@
-# Resources — Introduction to UI/UX Design for Web3
+# Resources
 
 - [Uniswap](https://app.uniswap.org) — study swap flows, approvals, and transaction feedback
 - [Phantom](https://phantom.app) — study wallet connection, onboarding, and signing UX
