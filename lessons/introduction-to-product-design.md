@@ -1,13 +1,17 @@
 # Lesson 02: Introduction to Product Design
 
-Learn how to decide what to build, who it is for, and why it matters before you design a single screen.
+Learn how to decide what to build, who it is for, and why it matters before you write code, design screens, or ship a feature.
 
-UI/UX design helps people use a product successfully. **Product design** goes a step further. It connects user needs, business goals, and technical reality into decisions about what the product should do in the first place.
+If you are a developer, engineer, or someone building a product on your own, this lesson is for you. You do not need a product design title to think like a strong builder. **Product design** is the discipline of making good decisions about what a product should do, who it serves, and how you will know it worked.
+
+In Lesson 01, you learned how UI/UX helps people use a product successfully. Product design comes before that. It connects user needs, business goals, and technical reality into decisions about what is worth building in the first place.
 
 Think of it this way:
 
 - **Product design** decides that a meal-planning app should help busy parents save time on weeknight dinners.
 - **UI/UX design** decides how those parents browse recipes, build a grocery list, and check off steps without getting lost.
+
+As a builder, you need both mindsets. Writing clean code or shipping fast does not help if you built the wrong thing.
 
 ---
 
@@ -15,7 +19,7 @@ Think of it this way:
 
 Product design is the practice of solving real user problems through thoughtful product decisions.
 
-Product designers ask:
+Before you build, ask:
 
 - What problem are we solving?
 - Who experiences this problem?
@@ -23,33 +27,33 @@ Product designers ask:
 - What should we build first?
 - How will we know if it worked?
 
-A product is not just an interface. It is the combination of features, flows, messaging, and outcomes that help people accomplish something meaningful.
+A product is not just an interface or a codebase. It is the combination of features, flows, messaging, and outcomes that help people accomplish something meaningful.
 
 ### Example: A Project Management Tool
 
 Users do not want "more features." They want to finish work on time, stay aligned with their team, and feel less overwhelmed.
 
-Good product design starts with that outcome, then decides which capabilities actually support it.
+Strong product thinking starts with that outcome, then decides which capabilities actually support it. That might mean building fewer things, not more.
 
 **What does product design primarily focus on?**
 
 - Choosing fonts and button colors
 - ✓ Deciding what to build, who it is for, and why it matters
 - Writing backend infrastructure code
-- Creating marketing landing pages only
+- Adding every feature that seems technically interesting
 
-**Which question belongs at the start of product design?**
+**Which question should come first when you are building something new?**
 
-- What animation style should we use?
+- What framework should we use?
 - ✓ What problem are we solving and for whom?
 - How many tabs should the settings page have?
 - Which competitor has the most features?
 
 ---
 
-## Product Design vs UI/UX Design
+## What to Build vs How It Works
 
-UI/UX and product design work closely together, but they are not the same job.
+Product thinking and UI/UX work together, but they answer different questions.
 
 | Focus | Product design | UI/UX design |
 |-------|----------------|--------------|
@@ -57,14 +61,16 @@ UI/UX and product design work closely together, but they are not the same job.
 | Typical outputs | Problem statements, feature priorities, success metrics | Flows, wireframes, interfaces, usability improvements |
 | Success looks like | Solving the right problem for the right users | Making that solution easy to understand and use |
 
-Neither role works well in isolation. A beautiful interface cannot fix a product that solves the wrong problem. A strong product idea still fails if users cannot figure out how to use it.
+This matters for builders because it is easy to jump straight into implementation. You might start coding an auth system, dashboard, or API before asking whether users actually need it, in that form, in that order.
+
+A polished interface cannot fix a product that solves the wrong problem. A strong idea still fails if users cannot figure out how to use it.
 
 **What is the main difference between product design and UI/UX design?**
 
 - ✓ Product design decides what to build; UI/UX design focuses on how people use it
 - Product design only applies to hardware products
 - UI/UX design happens before any product decisions are made
-- They are identical roles with different titles
+- They mean the same thing
 
 ---
 
@@ -72,22 +78,24 @@ Neither role works well in isolation. A beautiful interface cannot fix a product
 
 Strong products begin with problems, not feature lists.
 
-Before adding functionality, product designers try to understand:
+Before adding functionality, try to understand:
 
 - What is hard about the current experience?
 - When does the problem happen?
 - What have users already tried?
 - What would success look like for them?
 
-A clear **problem statement** keeps the team aligned. It describes who has the problem, what goes wrong today, and why it matters.
+A clear **problem statement** keeps you aligned, especially when you are building solo or working on a small team. It describes who has the problem, what goes wrong today, and why it matters.
 
 ### Example: Online Booking
 
-A salon might ask for "an app with push notifications and loyalty points." The real problem may be that clients forget appointments and staff spend too much time confirming bookings by phone.
+A salon owner might ask for "an app with push notifications and loyalty points." The real problem may be that clients forget appointments and staff spend too much time confirming bookings by phone.
 
-Product design reframes the request around the actual user need before deciding which features deserve to exist.
+Product thinking reframes the request around the actual user need before you decide what to build.
 
-**What should product designers prioritize before adding features?**
+Engineers often receive requests phrased as solutions: "Add a dashboard," "Build an export button," "Support webhooks." Your job is to understand the problem behind the request before treating it as a spec.
+
+**What should you prioritize before adding features?**
 
 - ✓ Understanding the user problem and what success looks like
 - Copying every feature competitors offer
@@ -99,7 +107,7 @@ Product design reframes the request around the actual user need before deciding 
 - ✓ Users often describe solutions, not the underlying problem
 - Users always know exactly what they want built
 - Feature lists eliminate the need for research
-- More features always mean better product-market fit
+- More features always mean a better product
 
 ---
 
@@ -117,9 +125,9 @@ An outcome is the result someone is trying to achieve. A feature is one way the 
 | Streak badges | Build a consistent habit |
 | Social sharing | Feel motivated and accountable |
 
-Product designers focus on the job users are trying to get done, then choose features that support that job. This is sometimes called **Jobs to Be Done** thinking: people "hire" products to make progress in their lives.
+Focus on the job users are trying to get done, then choose features that support that job. This is sometimes called **Jobs to Be Done** thinking: people "hire" products to make progress in their lives.
 
-If a feature does not move users toward a meaningful outcome, it may not belong in the product yet.
+If a feature does not move users toward a meaningful outcome, it may not belong in the product yet, even if it would be fun or technically satisfying to build.
 
 **What is the difference between an outcome and an output?**
 
@@ -128,10 +136,10 @@ If a feature does not move users toward a meaningful outcome, it may not belong 
 - An output is always more important than an outcome
 - Outcomes only matter for marketing teams
 
-**Why should product teams focus on outcomes?**
+**Why should builders focus on outcomes?**
 
 - ✓ It keeps the product centered on user progress, not feature count
-- It eliminates the need for user research
+- It eliminates the need to talk to users
 - It means every competitor feature should be copied
 - It replaces the need for UI/UX design
 
@@ -141,25 +149,25 @@ If a feature does not move users toward a meaningful outcome, it may not belong 
 
 The **curse of knowledge** happens when you know something so well that you forget what it feels like not to know it.
 
-Once you understand a product, it is easy to assume:
+This trap is especially common for developers and engineers. Once you understand a system, it is easy to assume:
 
 - Labels are obvious
 - Steps are self-explanatory
-- Jargon makes sense
+- Technical terms make sense to everyone
 - Important actions do not need explanation
 
-This is one of the most common traps in product design. Teams who live inside a product every day often design for themselves instead of for new users.
+Teams who live inside a product every day often build for themselves instead of for new users.
 
 ### Example: Account Setup
 
-A team might hide email verification behind abbreviations, skip explaining why permissions are needed, or use internal terms like "workspace" without defining them. To the team, everything feels clear. To a first-time user, the product feels confusing from the first minute.
+You might name a field `auth_provider_id`, hide email verification behind abbreviations, or use internal terms like "workspace" without explaining them. To you, everything feels clear. To a first-time user, the product feels confusing from the first minute.
 
-Product designers fight the curse of knowledge by:
+Fight the curse of knowledge by:
 
 - Testing with people who are new to the product
-- Using plain language instead of internal shorthand
+- Using plain language in UI copy, docs, and errors
 - Explaining why a step exists, not just what to click
-- Questioning assumptions that feel "obvious" to the team
+- Questioning assumptions that feel "obvious" because you built the system
 
 **What is the curse of knowledge?**
 
@@ -168,10 +176,10 @@ Product designers fight the curse of knowledge by:
 - The idea that users always read documentation first
 - A visual design principle about color contrast
 
-**How can product teams reduce the curse of knowledge?**
+**How can builders reduce the curse of knowledge?**
 
 - ✓ Test with new users and use plain language
-- Assume experienced team members represent all users
+- Assume your own understanding represents all users
 - Add more internal jargon to sound professional
 - Skip onboarding because the product is "simple enough"
 
@@ -179,12 +187,12 @@ Product designers fight the curse of knowledge by:
 
 ## Define Success Before You Build
 
-Product design needs a clear definition of success before teams commit to building.
+Define success before you commit serious time to implementation.
 
 Ask early:
 
 - What would success look like for users?
-- What would success look like for the business?
+- What would success look like for the business or project?
 - How will we measure it?
 
 Examples of success metrics:
@@ -195,20 +203,22 @@ Examples of success metrics:
 - Retention after the first week
 - Support tickets related to a core workflow
 
-Metrics do not replace empathy. They help teams know whether they solved the right problem or just shipped something that looks finished.
+For developers, this is practical. If you know what success looks like, you can instrument it, log the right events, and avoid optimizing the wrong thing.
+
+Metrics do not replace empathy. They help you know whether you solved the right problem or just shipped something that looks finished.
 
 **Why define success metrics early?**
 
-- ✓ So the team knows whether the product actually worked
-- So engineering can skip testing
+- ✓ So you know whether the product actually worked
+- So you can skip testing entirely
 - So stakeholders can add unlimited scope
-- So the team can avoid talking to users
+- So you can avoid talking to users
 
 **Which of the following is an example of a product success metric?**
 
-- The number of fonts in the design system
+- The number of microservices in the backend
 - ✓ The rate at which new users complete their first important task
-- How many meetings the team held
+- How many GitHub commits the team made
 - The size of the product roadmap
 
 ---
@@ -217,22 +227,22 @@ Metrics do not replace empathy. They help teams know whether they solved the rig
 
 Not every good idea should be built right now.
 
-An **MVP** (Minimum Viable Product) is the smallest version of a product that lets the team test whether they are solving the core problem. It is not an excuse to ship something broken. It is a focused way to learn fast.
+An **MVP** (Minimum Viable Product) is the smallest version of a product that lets you test whether you are solving the core problem. It is not an excuse to ship something broken. It is a focused way to learn fast before you overbuild.
 
-Product designers help teams decide:
+When you are building, decide:
 
 - What belongs in the first version
 - What can wait
 - What creates the most value with the least complexity
 - What risks confusing or overwhelming users
 
-This often means saying no to features that sound exciting but do not solve the core problem.
+This often means saying no to features that sound exciting but do not solve the core problem, including features that are technically interesting but not essential.
 
 ### Example: A Budgeting App
 
 The core job might be helping users understand where their money goes each month. Advanced investment tracking, social sharing, and custom categories might be useful later, but they are not the same priority as making expense entry fast and trustworthy.
 
-Good prioritization keeps the product focused on the outcome users care about most.
+Good prioritization keeps you focused on the outcome users care about most.
 
 **What is an MVP?**
 
@@ -241,77 +251,80 @@ Good prioritization keeps the product focused on the outcome users care about mo
 - A prototype with only visual polish and no functionality
 - The final version of the product after all research is complete
 
-**Why is prioritization important in product design?**
+**Why is prioritization important when building a product?**
 
-- ✓ It keeps the team focused on the highest-value problems first
+- ✓ It keeps you focused on the highest-value problems first
 - It guarantees every requested feature gets built immediately
 - It removes the need to talk to users
 - It replaces the need for UI/UX work
 
 ---
 
-## Making Design Decisions
+## Making Product Decisions
 
-Product design is full of tradeoffs. There is rarely one perfect answer.
+Building a product is full of tradeoffs. There is rarely one perfect answer.
 
-Designers make decisions by connecting:
+Strong decisions connect:
 
 - User needs
-- Business goals
+- Business or project goals
 - Technical constraints
 - Evidence from research or usage data
 
-Instead of guessing, strong teams treat decisions as **hypotheses**:
+Instead of guessing, treat decisions as **hypotheses**:
 
 - We believe busy parents need a weekly meal plan more than daily recipe inspiration.
 - We believe fewer checkout steps will increase completed purchases.
 - We believe clearer error messages will reduce support tickets.
 
-Hypotheses can be tested, measured, and revised. That keeps product design grounded in reality instead of opinion alone.
+Hypotheses can be tested, measured, and revised. That keeps product thinking grounded in reality instead of opinion alone.
 
-**Why do product designers use hypotheses?**
+This mindset is especially useful for engineers. You do not need to debate forever in a meeting. You can build the smallest test, measure the result, and learn.
+
+**Why use hypotheses when building a product?**
 
 - ✓ To make assumptions testable instead of treating opinions as facts
 - To avoid talking to users until launch
 - To eliminate the need for metrics
 - To speed up decisions by skipping research
 
-**What should guide product design decisions?**
+**What should guide product decisions?**
 
-- ✓ User needs, business goals, constraints, and evidence
+- ✓ User needs, goals, constraints, and evidence
 - Only what looks best in a mockup
-- Whatever the loudest stakeholder prefers
+- Whatever seems most technically impressive
 - Competitor feature lists alone
 
 ---
 
-## Collaboration and Handoff
+## Building With Others
 
-Product design sits between user needs, business strategy, design execution, and engineering.
+Even if you are building alone, product decisions rarely happen in isolation.
 
-Product designers often work with:
+You may need to align with:
 
-- **Researchers** to understand user behavior
-- **UI/UX designers** to shape flows and interfaces
-- **Engineers** to understand what is feasible
-- **Stakeholders** to align on goals and priorities
+- **Users or customers** who experience the problem
+- **Teammates** who design interfaces, write code, or handle support
+- **Stakeholders** who care about business goals, timelines, or scope
 
 Clear communication matters. A problem statement, success metric, and prioritized feature list help everyone build toward the same outcome instead of debating disconnected ideas.
 
-**Why does product design require collaboration?**
+If you are a developer on a team, product thinking helps you push back thoughtfully when a request is vague, ask better clarifying questions, and suggest smaller ways to test an idea before a large build.
 
-- ✓ Product decisions affect research, design, engineering, and business goals
-- Product designers work alone until launch
-- Collaboration only matters after the product is finished
-- Engineers should never be involved in product decisions
+**Why does product thinking matter on a team?**
+
+- ✓ Product decisions affect users, design, engineering, and business goals
+- Only non-technical teammates should think about users
+- Collaboration only matters after launch
+- Engineers should never question product scope
 
 ---
 
 ## Testing Assumptions
 
-Product design is not finished when a roadmap is written.
+Product thinking does not end when you write a roadmap or merge a pull request.
 
-Teams validate ideas through:
+Validate ideas through:
 
 - User interviews
 - Prototypes
@@ -319,19 +332,21 @@ Teams validate ideas through:
 - Beta releases
 - Metrics such as activation, retention, and task completion
 
-If users struggle with a core workflow, the product may need a clearer scope, simpler steps, or a different feature priority. Iteration applies to product decisions just as much as interface details.
+You do not need a large research team to do this. Watch someone use your prototype. Share an early version with five users. Track whether people complete the core workflow.
+
+If users struggle with a core flow, the problem may not be button color. It may be unclear scope, too many steps, missing context, or the wrong feature priority.
 
 Be careful not to confuse positive reactions with real progress. Polished mockups can feel convincing because of the **aesthetic-usability effect**: people often perceive attractive products as easier to use, even when the underlying experience still has problems. Good visual design builds trust, but it cannot replace testing whether users can actually complete important tasks.
 
 ### Example: A Food Delivery App
 
-If most users abandon the flow after adding items to their cart, the problem may not be button color. It may be unexpected fees, unclear delivery timing, or too many decisions at checkout. Product design helps identify which assumption failed.
+If most users abandon the flow after adding items to their cart, the problem may not be CSS. It may be unexpected fees, unclear delivery timing, or too many decisions at checkout. Product thinking helps you identify which assumption failed.
 
-**How should teams treat early product ideas?**
+**How should you treat early product ideas?**
 
 - As final decisions that should not be questioned
 - ✓ As assumptions that need testing with real users and data
-- As complete once stakeholders approve them
+- As complete once the spec is written
 - As UI problems that only designers can fix
 
 **What should you investigate if users abandon a core workflow?**
@@ -339,9 +354,9 @@ If most users abandon the flow after adding items to their cart, the problem may
 - ✓ Whether the product scope, steps, or assumptions are creating friction
 - Only whether the primary button is the right shade of blue
 - Whether users need more features immediately
-- Whether the logo needs to be larger
+- Whether the backend needs more optimization
 
-**Why should teams test beyond polished mockups?**
+**Why should you test beyond polished mockups?**
 
 - ✓ Attractive designs can feel successful even when users still struggle with core tasks
 - Visual polish automatically proves product-market fit
@@ -354,9 +369,9 @@ If most users abandon the flow after adding items to their cart, the problem may
 
 Product design is about solving the right problem for the right people in a way that creates real value.
 
-Great product designers stay close to user needs, define success early, prioritize ruthlessly, and test their decisions. They know that clear interfaces matter, but clarity starts long before the first screen.
+Whether you are building solo or on a team, strong builders stay close to user needs, define success early, prioritize ruthlessly, and test their assumptions. Clear interfaces matter, but clarity starts long before the first screen or line of code.
 
-Watch for traps like the **curse of knowledge**, where teams assume users understand what already feels obvious internally.
+Watch for traps like the **curse of knowledge**, where you assume users understand what already feels obvious to you because you built the system.
 
 **What is the ultimate goal of good product design?**
 
@@ -372,7 +387,7 @@ Watch for traps like the **curse of knowledge**, where teams assume users unders
 - Information Architecture
 - An MVP
 
-**What should teams define before committing to a large build?**
+**What should you define before committing to a large build?**
 
 - ✓ What success looks like and how it will be measured
 - Every visual detail in the final interface
@@ -383,8 +398,8 @@ Watch for traps like the **curse of knowledge**, where teams assume users unders
 
 ## What's Next
 
-You now understand how product design differs from UI/UX, why problem framing and outcomes matter, and how to prioritize, define success, and test assumptions before scaling a build.
+You now understand how product thinking differs from UI/UX, why problem framing and outcomes matter, and how to prioritize, define success, and test assumptions before scaling a build.
 
-The next step is to go deeper: turn problems into sharper requirements, practice writing problem statements, and make tradeoffs that balance user value with what your team can actually ship.
+The next step is practice: turn vague ideas into clear problem statements, choose a focused first version, and build in a way that helps you learn quickly.
 
-Keep testing assumptions, stay close to users, and remember that good products feel obvious in hindsight because someone did the hard thinking up front.
+Keep testing assumptions, stay close to users, and remember that good products feel obvious in hindsight because someone did the hard thinking before the build got too big.

@@ -317,4 +317,4 @@ You now understand what UI and UX are, why they matter, and how to think about u
 
 But knowing how to design clear screens is not the same as knowing how to design a product. Interfaces explain how something works. Product design decides what gets built, who it is for, and why it matters.
 
-In the next lesson, continue with [`Introduction to Product Design`](introduction-to-product-design.md): defining user problems, shaping features, and making design decisions that go beyond screens and flows.
+In the next lesson, continue with [`Introduction to Product Design`](introduction-to-product-design.md): how to decide what to build, define success, and test assumptions before you invest too much in the wrong solution.
